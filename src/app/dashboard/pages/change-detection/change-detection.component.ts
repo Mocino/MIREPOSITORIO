@@ -1,12 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-change-detection',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './change-detection.component.html',
-  styleUrl: './change-detection.component.css'
+  styles: ``,
 })
-export class ChangeDetectionComponent {
+export default class ChangeDetectionComponent {
 
 }

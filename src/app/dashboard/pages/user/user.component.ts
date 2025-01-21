@@ -1,12 +1,12 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
+  styles: ``,
   templateUrl: './user.component.html',
-  styleUrl: './user.component.css'
 })
-export class UserComponent {
+export default class UserComponent {
 
 }
